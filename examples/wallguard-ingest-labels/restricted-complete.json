@@ -1,0 +1,18 @@
+{
+  "schema_version": "0.1.0",
+  "record_type": "WallGuardIngestLabels",
+  "ingest_id": "wallguard-ingest://client-a/matter-x/doc-001",
+  "source_ref": "source://upload/client-a/matter-x/doc-001",
+  "source_provenance_ref": "provenance://upload/client-a/matter-x/doc-001",
+  "client_ref": "client://client-a",
+  "matter_ref": "matter://client-a/matter-x",
+  "workroom_ref": "workroom://client-a/matter-x",
+  "wall_ref": "wall://client-a/matter-x",
+  "classification": "wall_restricted",
+  "label_state": "complete",
+  "clean_room_eligible": true,
+  "permitted_destination_refs": ["workroom://client-a/matter-x"],
+  "permitted_subject_refs": ["agent-wall-context://agent-alpha/client-a/matter-x"],
+  "policy_refs": ["policy-fabric://wallguard.professional-workroom.v0"],
+  "evidence_refs": ["SocioProphet/ProCybernetica#103", "SocioProphet/prophet-core-ledger#6"]
+}

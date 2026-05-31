@@ -1,0 +1,19 @@
+{
+  "schema_version": "0.1.0",
+  "record_type": "WallGuardIngestLabels",
+  "ingest_id": "wallguard-ingest://client-a/unknown/doc-002",
+  "source_ref": "source://upload/client-a/unknown/doc-002",
+  "source_provenance_ref": "provenance://upload/client-a/unknown/doc-002",
+  "client_ref": "client://client-a",
+  "matter_ref": "unknown",
+  "workroom_ref": "unknown",
+  "wall_ref": "unknown",
+  "classification": "wall_restricted",
+  "label_state": "quarantined",
+  "clean_room_eligible": false,
+  "permitted_destination_refs": [],
+  "permitted_subject_refs": [],
+  "policy_refs": ["policy-fabric://wallguard.professional-workroom.v0"],
+  "evidence_refs": ["SocioProphet/ProCybernetica#103"],
+  "quarantine_reason": "restricted ingest missing matter/workroom/wall labels"
+}
